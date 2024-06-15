@@ -219,6 +219,20 @@
       new Glide(".glide", {
         type: "carousel",
         perView: 4,
+        breakpoints: {
+          640: {
+            perView: 1,
+          },
+          760: {
+            perView: 2,
+          },
+          1024: {
+            perView: 3,
+          },
+          1280: {
+            perView: 4,
+          },
+        },
       }).mount();
     </script>
   </body>

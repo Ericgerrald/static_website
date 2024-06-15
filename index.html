@@ -3,12 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>static website</title>
+    <title>Static Website</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
+    <!-- Required Core Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="node_modules/@glidejs/glide/dist/css/glide.core.min.css"
+    />
+
+    <!-- Optional Theme Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css"
+    />
     <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/@glidejs/glide/dist/css/glide.core.min.css"
+    />
   </head>
   <body>
     <header></header>
@@ -34,7 +49,6 @@
           </article>
         </div>
         <div class="hero-items">
-          <!-- start of item -->
           <article class="hero-item">
             <h4>Tattoo Supplies</h4>
             <img
@@ -44,8 +58,6 @@
             />
             <a href="#" class="btn">shop now</a>
           </article>
-          <!-- end of item -->
-          <!-- start of item -->
           <article class="hero-item">
             <h4>Body Jewelry</h4>
             <img
@@ -55,8 +67,6 @@
             />
             <a href="#" class="btn">shop now</a>
           </article>
-          <!-- end of item -->
-          <!-- start of item -->
           <article class="hero-item">
             <h4>Piercing Supplies</h4>
             <img
@@ -66,8 +76,6 @@
             />
             <a href="#" class="btn">shop now</a>
           </article>
-          <!-- end of item -->
-          <!-- start of item -->
           <article class="hero-item">
             <h4>Medical Supplies</h4>
             <img
@@ -77,8 +85,6 @@
             />
             <a href="#" class="btn">shop now</a>
           </article>
-          <!-- end of item -->
-          <!-- start of item -->
           <article class="hero-item">
             <h4>Permanent Makeup</h4>
             <img
@@ -88,89 +94,132 @@
             />
             <a href="#" class="btn">shop now</a>
           </article>
-          <!-- end of item -->
         </div>
       </div>
     </section>
     <section id="bottom">
       <div class="section-center card-center">
         <h1>New Products</h1>
-        <div class="slide-content">
-          <div class="card-wrapper">
-            <!-- single card -->
-            <article class="card">
-              <div class="card-img-container">
-                <img class="img" src="./Images/card-img.png" alt="card-img" />
-              </div>
-              <!-- card info -->
-              <div class="card-info">
-                <h4 class="amount">$449.99</h4>
-                <p>Roc qulil rotary tattoo machine</p>
-                <p>-copper</p>
-              </div>
-            </article>
-            <!-- end of single card -->
-            <!-- single card -->
-            <article class="card">
-              <div class="card-img-container">
-                <img class="img" src="./Images/card-img.png" alt="card-img" />
-              </div>
-              <!-- card info -->
-              <div class="card-info">
-                <h4 class="amount">$449.99</h4>
-                <p>Roc qulil rotary tattoo machine</p>
-                <p>-Blue</p>
-              </div>
-            </article>
-            <!-- end of single card -->
-            <!-- single card -->
-            <article class="card">
-              <div class="card-img-container">
-                <img class="img" src="./Images/card-img.png" alt="card-img" />
-              </div>
-              <!-- card info -->
-              <div class="card-info">
-                <h4 class="amount">$1,99.99</h4>
-                <p>Roc qulil rotary tattoo machine</p>
-                <p>-copper</p>
-              </div>
-            </article>
-            <!-- end of single card -->
-            <!-- single card -->
-            <article class="card">
-              <div class="card-img-container">
-                <img class="img" src="./Images/card-img.png" alt="card-img" />
-              </div>
-              <!-- card info -->
-              <div class="card-info">
-                <h4 class="amount">$449.99</h4>
-                <p>Roc qulil rotary tattoo machine</p>
-                <p>-copper</p>
-              </div>
-            </article>
-            <!-- end of single card -->
-            <!-- single card -->
-            <article class="card">
-              <div class="card-img-container">
-                <img class="img" src="./Images/card-img.png" alt="card-img" />
-              </div>
-              <!-- card info -->
-              <div class="card-info">
-                <h4 class="amount">$449.99</h4>
-                <p>Roc qulil rotary tattoo machine</p>
-                <p>-copper</p>
-              </div>
-            </article>
-            <!-- end of single card -->
+        <div class="container">
+          <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <!-- Start of card Item -->
+                <li class="glide__slide">
+                  <div class="card">
+                    <div class="card-img-container">
+                      <img
+                        class="img"
+                        src="./Images/card-img.png"
+                        alt="card-img"
+                      />
+                    </div>
+                    <div class="card-info">
+                      <h4 class="amount m-b m-t">$449.99</h4>
+                      <p class="m-b">Roc qulil rotary tattoo machine</p>
+                      <p>-copper</p>
+                    </div>
+                  </div>
+                </li>
+                <!-- end of card item -->
+                <!-- Start of card Item -->
+                <li class="glide__slide">
+                  <div class="card">
+                    <div class="card-img-container">
+                      <img
+                        class="img"
+                        src="./Images/card-img.png"
+                        alt="card-img"
+                      />
+                    </div>
+                    <div class="card-info">
+                      <h4 class="amount m-b m-t">$449.99</h4>
+                      <p class="m-b">Roc qulil rotary tattoo machine</p>
+                      <p>-copper</p>
+                    </div>
+                  </div>
+                </li>
+                <!-- end of card item -->
+                <!-- Start of card Item -->
+                <li class="glide__slide">
+                  <div class="card">
+                    <div class="card-img-container">
+                      <img
+                        class="img"
+                        src="./Images/card-img.png"
+                        alt="card-img"
+                      />
+                    </div>
+                    <div class="card-info">
+                      <h4 class="amount m-b m-t">$449.99</h4>
+                      <p class="m-b">Roc qulil rotary tattoo machine</p>
+                      <p>-copper</p>
+                    </div>
+                  </div>
+                </li>
+                <!-- end of card item -->
+                <!-- Start of card Item -->
+                <li class="glide__slide">
+                  <div class="card">
+                    <div class="card-img-container">
+                      <img
+                        class="img"
+                        src="./Images/card-img.png"
+                        alt="card-img"
+                      />
+                    </div>
+                    <div class="card-info">
+                      <h4 class="amount m-b m-t">$449.99</h4>
+                      <p class="m-b">Roc qulil rotary tattoo machine</p>
+                      <p>-copper</p>
+                    </div>
+                  </div>
+                </li>
+                <!-- end of card item -->
+                <!-- Start of card Item -->
+                <li class="glide__slide">
+                  <div class="card">
+                    <div class="card-img-container">
+                      <img
+                        class="img"
+                        src="./Images/card-img.png"
+                        alt="card-img"
+                      />
+                    </div>
+                    <div class="card-info">
+                      <h4 class="amount m-b m-t">$449.99</h4>
+                      <p class="m-b">Roc qulil rotary tattoo machine</p>
+                      <p>-copper</p>
+                    </div>
+                  </div>
+                </li>
+                <!-- end of card item -->
+              </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+              <button
+                class="glide__arrow glide__arrow--left"
+                data-glide-dir="<"
+              >
+                <i class="fa fa-chevron-left"></i>
+              </button>
+              <button
+                class="glide__arrow glide__arrow--right"
+                data-glide-dir=">"
+              >
+                <i class="fa fa-chevron-right"></i>
+              </button>
+            </div>
           </div>
-          <button type="button" class="prev-btn button">
-            <i class="fa fa-chevron-left"></i>
-          </button>
-          <button type="button" class="next-btn button">
-            <i class="fa fa-chevron-right"></i>
-          </button>
         </div>
       </div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script>
+      new Glide(".glide", {
+        type: "carousel",
+        perView: 4,
+      }).mount();
+    </script>
   </body>
 </html>
